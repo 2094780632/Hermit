@@ -48,13 +48,15 @@
                             $file = scandir($dir);
                             for($i=2;$i<=count($file)-1;$i++){
                                 include("users/".$file[$i]);
-                                if(($c_username=$u_username)&&($c_password=$u_password)){
+                                $u_username=basename($file[$i],".".getExt($file[$i]));
+                                if(($c_username==$u_username)&&($c_password==$u_password)){
                                     $flag=true;
                                     break;
                                     }
                                 }
                             if($flag){
                                 $_SESSION['username']=$c_username;
+                                echo "S";
                             }
                         }
                         break;
