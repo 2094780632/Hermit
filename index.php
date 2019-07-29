@@ -19,7 +19,7 @@
     
     <title><?php echo $title;?></title>
 </head>
-<body>
+<body id="wrapper">
     <div class="main">
         
         <img class="icon" border="0" src="icon.png">
