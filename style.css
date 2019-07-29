@@ -1,0 +1,94 @@
+::selection { background:rgb(216, 244, 255); }
+body{
+    background-color: beige;
+    color: rgb(41, 41, 41);
+    text-decoration:none;
+    font-family: 'YaHei UI Light','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div.main{
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+img.icon{
+    margin-top: 0.5%;
+    margin-left: 1.5%;
+}
+h1{
+    font-size:2.5em;
+}
+h2{
+    font-size:1.9em;
+}
+h3{
+    font-size: 1.6em;
+}
+h4{
+    font-size: 1.3em;
+}
+h5{
+    font-size: 1.1em;
+}
+h6{
+    font-size: 1.0em;
+}
+p{
+    font-size:0.9em;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.sidenav{
+    overflow: hidden;
+    background-color: rgb(237, 240, 71);
+}
+li.sidenavz{
+    float: left;
+    border-right:0px solid #bbb;
+}
+ul li a.active{
+    background-color: bisque;
+}
+li.article{
+    border: 1px solid #ccc!important;
+    padding:14px;
+    border-radius: 0px!important;
+    box-shadow: 5px 5px 2px grey;
+}
+a:link {
+    text-decoration:none;
+    color: black;
+}
+a:hover {
+    color:rgb(124, 124, 124);
+}
+input[type=text] ,[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    background-color: beige;
+    border-radius: 25px;
+}
+
+input[type=text]:focus ,[type=password]:focus{
+    border: 3px solid #555;
+}
+
+input[type=submit]{
+    background-color: burlywood;
+    color: white;
+    border-radius: 25px;
+    border: 3px #bbb;
+    padding: 16px 32px;
+    width: 100%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
