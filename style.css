@@ -1,5 +1,7 @@
 ::selection { background:rgb(216, 244, 255); }
 body{
+    margin: 0;
+    padding: 0;
     background-color: beige;
     color: rgb(41, 41, 41);
     text-decoration:none;
@@ -39,22 +41,43 @@ ul{
     margin: 0;
     padding: 0;
 }
-ul.sidenav{
+ul.nav-down {
+    color: azure;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    background-color: rgb(237, 240, 71);
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
-li.sidenavz{
-    float: left;
-    border-right:0px solid #bbb;
-}
-ul li a.active{
-    background-color: bisque;
-}
+
 li.article{
     border: 1px solid #ccc!important;
     padding:14px;
     border-radius: 0px!important;
     box-shadow: 5px 5px 2px grey;
+    width: 100%;
+}
+li {
+    float: left;
+}
+
+li.nav-down p {
+    display: block;
+    color: rgb(231, 231, 231);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.nav-down a:link{
+    color: #ccc;
+}
+
+li.nav-down a:hover {
+    color: rgb(153, 153, 153);
 }
 a:link {
     text-decoration:none;
